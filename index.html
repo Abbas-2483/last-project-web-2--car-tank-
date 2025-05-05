@@ -1,0 +1,641 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/fontawesome-free-6.7.2-web/css/all.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body dir="rtl" class="text-white w-full bg-[#181818] flex flex-col items-center">
+  <section class="bg-[#181818] flex flex-col  pt-2 md:w-12/12 w-[412px]  h-full">
+    <!-- صفحه header بخش  -->
+     <header class="bg-[#181818] hidden md:flex items-center justify-center pt-2 w-full">
+      <img class="w-24" src="/assets/images/logo.png" alt="">
+      <div class="w-8/12">
+        <div class="w-12/12 flex justify-between">
+          <span>
+            <i class="fas fa-location-dot text-[#939697] inline-block"></i>
+            <p class="text-[#939697] inline-block">Arak, Markazi Province, Iran</p>
+          </span>
+          <span>
+            <a href="#">
+              <i class="fas fa-gear text-[#FF9549] inline-block"></i>
+              <p class="inline-block">برای خدمات ثبت نام کنید</p>
+            </a>
+            <a href="">
+              <img class="w-[24px] inline-block mr-10" src="/assets/images/speed.png" alt="">
+              <p class="inline-block">تست درایو</p>
+            </a>
+          </span>
+        </div>
+        <hr class="w-12/12 opacity-20 border-1">
+        <div class="mt-2 w-12/12 flex justify-between">
+          <span class="flex items-center">
+            <p class="text-3xl font-bold inline-block">تانک آوتوروس</p>
+            <hr class="rotate-90 w-8 opacity-20 border-1 relative inline-block">
+            <p class="inline-block">نمایندگی رسمی</p>
+          </span>
+          <span class="flex">
+            <span class="ml-10">
+              <p dir="ltr" class="text-2xl">+98 (999) 999-99-99</p>
+              <i class="fa fa-circle text-[#FF9549]"></i>
+              <p class="inline-block">ما در تماس هستیم</p>
+            </span>
+            <span class="block">
+              <a href="login.html">
+                <button class="bg-[#FF9549] text-black md:w-52 md:h-12 rounded-2xl cursor-pointer">
+                  درخواست تماس
+                  <i class="fas fa-phone"></i>
+                </button>
+              </a>
+            </span>
+          </span>
+        </div>
+      </div>
+    </header>
+    <!-- قسمت گوشی هدر  -->
+    <div class="md:hidden flex ">
+      <img class="w-16" src="/assets/images/logo.png" alt="">
+      <span>
+        <p>مخزن AVTORUS لوسینی اوستروف</p>
+        <p class="text-[#939697]">فروشنده رسمی</p>
+      </span>
+      <span class="flex">
+        <a href="login.html"><i class="fas fa-phone-flip text-4xl mx-4"></i></a>
+        <label for="checkbox1">
+          <span class=""> <hr class="border-2 w10 ">  <hr class="border-2 w-10 mt-3">  <hr class="border-2 w-10 mt-3"> </span>
+        </label>
+      </span>
+      <label for="">
+        <input type="radio" name="radio" id="checkbox1" class="peer hidden">
+        <div class="absolute top-0 right-0 h-0 overflow-hidden transition-all  bg-[#181818] w-12/12 peer-checked:h-[650px] px-5">
+          <label for="checkbox">
+            <span class=""> <hr class="border-2 w-10 rotate-45 absolute top-8 right-4"> <hr class="border-2 w-10 mt-3 rotate-[-45deg] absolute top-5 right-4"></span>
+          </label>
+          <input type="radio" name="radio" class="hidden peer" id="checkbox">
+          <div class="mt-20">
+            <p class="font-bold">مخزن AVTORUS لوسینی اوستروف</p>
+            <p class="text-[#939697]">فروشنده رسمی</p>
+          </div>
+          <div class="mt-10">
+            <p class="font-bold text-2xl">+98 (999) 999-99-99</p>
+            <p class="text-[#939697]"><i class="fas fa-circle text-[#00D154] text-[10px]"></i> ما در ارتباط هستیم</p>
+          </div>
+          <div class="mt-10">
+            <span>
+              <i class="fas fa-location-dot text-[#939697] inline-block"></i>
+              <p class="text-[#939697] inline-block">Arak, Markazi Province, Iran</p>
+            </span>
+            <div class="text-[#939697] mt-2">
+              <i class="fas fa-clock inline-block"></i>
+              <p class="inline-block">همه روزه از ساعت 09:00 الی 21:00</p>
+            </div>
+          </div>
+          <div class="mt-16 w-full">
+            <a href="login.html">
+              <button class="bg-[#FF9549] text-black w-12/12 h-12 rounded-[8px] cursor-pointer">
+                درخواست تماس
+                <i class="fas fa-phone"></i>
+              </button>
+            </a>
+            <span class="flex flex-col items-center ">
+              <a class="mt-5" href="#">
+                <i class="fas fa-gear text-[#FF9549] inline-block"></i>
+                <p class="inline-block">برای خدمات ثبت نام کنید</p>
+              </a>
+              <a class="mt-5" href="">
+                <img class="w-[24px] inline-block mr-10" src="/assets/images/speed.png" alt="">
+                <p class="inline-block">تست درایو</p>
+              </a>
+            </span>
+          </div>
+        </div>
+      </label>
+    </div>
+  </section>
+    <section class="bg-[#181818] flex items-center flex-col ">
+          <!-- عکس اصلی صفحه  -->
+          <div class="bg-[url(/assets/images/mainImage.png)] w-[1890px] h-[630px] mt-5 hidden md:flex ">
+            <div class="md:absolute left-60 top-4/12">
+              <div class="">
+                <p class="text-2xl ">ما هر شرایطی را بهبود خواهیم داد</p>
+                <p class="text-7xl font-bold">تانک 500</p>
+                <p class="text-2xl">فقط 5 ماشین مونده!</p>
+              </div>
+              <button class="bg-[#FF9549] text-black w-64 h-16 rounded-2xl mt-5 cursor-pointer">یک نقل قول دریافت کنید
+                <i class="fas fa-angle-left mr-5"></i>
+              </button>
+            </div>
+           </div>
+           <!-- حالت گوشی  -->
+           <div class="md:hidden bg-[url(/assets/images/mainImage.png)] w-full h-64 bg-[length:190%_140%] bg-[85%_50%]"></div>
+           <div class="md:hidden left-60 top-4/12">
+            <div class="">
+              <p class="text-2xl text-center">ما هر شرایطی را بهبود خواهیم داد</p>
+              <p class="text-4xl font-bold text-center">تانک 500</p>
+              <p class="text-2xl text-center">فقط 5 ماشین مونده!</p>
+            </div>
+            <button class="bg-[#FF9549] text-black w-full h-16 rounded-2xl mt-5 cursor-pointer">یک نقل قول دریافت کنید
+              <i class="fas fa-angle-left mr-5"></i>
+            </button>
+          </div>
+       <!-- قسمت تایمر  -->
+           <div class="md:w-10/12 w-12/12 md:h-32 mt-8 bg-[#252C2C] rounded-2xl md:flex items-center md:justify-around p-6">
+            <div class=" text-3xl font-bold">مدت اعتبار <br> پیشنهادات ویژه:</div>
+            <div class="text-white flex items-center justify-center md:gap-6 rounded-1xl">
+              <!-- Days -->
+              <div class="md:relative md:w-24 md:h-24 ">
+                <svg class="w-full h-full rotate-[-90deg]">
+                  <circle cx="48" cy="48" r="40" stroke="#4B5563" stroke-width="8" fill="none" />
+                  <circle cx="48" cy="48" r="40" stroke="#F97316" stroke-width="8" fill="none" stroke-dasharray="251.2" stroke-dashoffset="60"  stroke-linecap="round"/>
+                </svg>
+                <div class="md:absolute  inset-0 flex flex-col items-center justify-center">
+                  <div class="text-3xl font-bold">03</div>
+                  <div class="text-sm">روز</div>
+                </div>
+              </div>
+              <!-- Colon -->
+              <div class="text-4xl font-bold">:</div>
+              <!-- Hours -->
+              <div class="md:relative md:w-24 md:h-24">
+                <svg class="w-full h-full rotate-[-90deg]">
+                  <circle cx="48" cy="48" r="40" stroke="#4B5563" stroke-width="8" fill="none" />
+                  <circle cx="48" cy="48" r="40" stroke="#F97316" stroke-width="8" fill="none" stroke-dasharray="251.2" stroke-dashoffset="120"stroke-linecap="round"/>
+                </svg>
+                <div class="md:absolute inset-0 flex flex-col items-center justify-center">
+                  <div class="text-3xl font-bold">06</div>
+                  <div class="text-sm">ساعت‌</div>
+                </div>
+              </div>
+            
+              <div class="text-4xl font-bold">:</div>
+            
+              <!-- Minutes -->
+              <div class="md:relative md:w-24 md:h-24">
+                <svg class="w-full h-full rotate-[-90deg]">
+                  <circle cx="48" cy="48" r="40" stroke="#4B5563" stroke-width="8" fill="none" />
+                  <circle cx="48" cy="48" r="40" stroke="#F97316" stroke-width="8" fill="none" stroke-dasharray="251.2" stroke-dashoffset="150" stroke-linecap="round"/>
+                </svg>
+                <div class="md:absolute inset-0 flex flex-col items-center justify-center">
+                  <div class="text-3xl font-bold">14</div>
+                  <div class="text-sm">دقیقه</div>
+                </div>
+              </div>
+            
+              <div class="text-4xl font-bold">:</div>
+            
+              <!-- Seconds -->
+              <div class="md:relative w-24 h-24">
+                <svg class="w-full h-full rotate-[-90deg]">
+                  <circle cx="48" cy="48" r="40" stroke="#4B5563" stroke-width="8" fill="none" />
+                  <circle cx="48" cy="48" r="40" stroke="#F97316" stroke-width="8" fill="none" stroke-dasharray="251.2" stroke-dashoffset="25" stroke-linecap="round"/>
+                </svg>
+                <div class="md:absolute inset-0 flex flex-col items-center justify-center">
+                  <div class="text-3xl font-bold">55</div>
+                  <div class="text-sm">ثانیه‌</div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <button class="bg-[#FF9549] text-black w-72 h-16 rounded-2xl cursor-pointer">
+                قیمت را با مزایا بدانید
+                  <i class="fas fa-angle-left"></i>
+              </button>
+            </div>
+           </div>
+           <!-- قسمت مزایای شرکت  -->
+           <div class="grid grid-cols-3 w-10/12 mt-10 gap-4">
+            <div class="md:col-span-1 col-span-3 border-2 border-[#939697] md:h-40 h-28 rounded-2xl px-7 pt-3 flex">
+              <img class="w-20 h-20 ml-8" src="/assets/images/tazmin.png" alt="">
+              <div class="mt-4">
+                <p class="text-2xl font-bold">نمایندگی رسمی</p><br>
+                <p class="hidden md:block">ما خدمات با کیفیت بالا را تضمین می کنیم</p>
+              </div>
+            </div>
+            <div class="md:col-span-1 col-span-3 border-2 border-[#939697] md:h-40 h-28 rounded-2xl px-7 pt-3 flex">
+              <img class="w-20 h-20 ml-8" src="/assets/images/Screenshot 2025-04-18 113451.png" alt="">
+              <div class="mt-4">
+                <p class="text-2xl font-bold">خرید ماشین در 1 روز</p><br>
+                <p class="hidden md:block">فرآیند خرید راحت، از جمله تهیه کلیه اسناد</p>
+              </div>
+            </div>
+            <div class="md:col-span-1 col-span-3 border-2 border-[#939697] md:h-40 h-28 rounded-2xl px-7 pt-3 flex">
+              <img class="w-20 h-20 ml-8" src="/assets/images/Screenshot 2025-04-18 113522.png" alt="">
+              <div class="mt-4">
+                <p class="text-2xl font-bold">کلیه تجهیزات موجود در انبار</p><br>
+                <p class="hidden md:block">طیف گسترده ای از تنظیمات، با بسته کامل اسناد</p>
+              </div>
+            </div>
+           </div>
+           <p class="md:text-4xl text-2xl font-bold mt-32 text-center">همین امروز یک ماشین رزرو کنید و از مزایای اضافی 100000 ₽ بهره مند شوید</p>
+           <div class="flex items-center my-10">
+            <span class="flex flex-col items-center">
+              <img class="w-96" src="/assets/images/tnk300.png" alt="">
+              <p class="text-3xl font-bold mt-[-40px]">تانک 300</p>
+            </span>
+            <span class="flex flex-col items-center">
+              <img class="w-96" src="/assets/images/tank500.png" alt="">
+              <p class="text-3xl font-bold mt-[-40px]">تانک 500</p>
+            </span>
+           </div> 
+    </section>
+  <!-- قسمت فروش تانک 300  -->
+  <section class="bg-[#1C2121] grid grid-cols-3 md:px-80 overflow-hidden">
+    <div class="col-span-2 hidden md:flex items-center ">
+      <span class="flex md:flex-col ">
+        <div class="w-10 h-10 rounded-full bg-[#EF2929] flex items-center justify-center"><i class="fas fa-check"></i></div>
+        <div class="w-10 h-10 rounded-full bg-[#DF4C30] flex items-center justify-center mt-4 cursor-pointer"></div>
+        <div class="w-10 h-10 rounded-full bg-[#C6C9CE] flex items-center justify-center mt-4 cursor-pointer"></div>
+        <div class="w-10 h-10 rounded-full bg-[#212329] flex items-center justify-center border-2 border-[#939697] mt-4 cursor-pointer"></div>
+        <div class="w-10 h-10 rounded-full bg-[#E6E7E8] flex items-center justify-center mt-4 cursor-pointer"></div>
+      </span>
+      <span>
+        <div class="w-40 h-28 bg-[#FF9549] text-black flex items-center justify-center rounded-2xl relative top-32 right-36 rotate-12">5 خودرو با قیمت ویژه <br> باقی مانده است</div>
+        <img class="md:w-[800px]" src="/assets/images/tnk300.png" alt="">
+      </span>
+    </div>
+    <!-- قسمت گوشی  -->
+    <div class="md:hidden col-span-3">
+      <span>
+        <div class="w-40 h-28 bg-[#FF9549] text-black flex items-center justify-center rounded-2xl relative top-10 right-16  rotate-12">5 خودرو با قیمت ویژه <br> باقی مانده است</div>
+        <img class="md:w-[800px]" src="/assets/images/tnk300.png" alt="">
+      </span>
+      <span class="flex md:flex-col md:mr-0 mr-18">
+        <div class="w-10 h-10 rounded-full bg-[#EF2929] flex items-center justify-center"><i class="fas fa-check"></i></div>
+        <div class="w-10 h-10 rounded-full bg-[#DF4C30] flex items-center justify-center mr-4 cursor-pointer"></div>
+        <div class="w-10 h-10 rounded-full bg-[#C6C9CE] flex items-center justify-center mr-4 cursor-pointer"></div>
+        <div class="w-10 h-10 rounded-full bg-[#212329] flex items-center justify-center border-2 border-[#939697] mr-4 cursor-pointer"></div>
+        <div class="w-10 h-10 rounded-full bg-[#E6E7E8] flex items-center justify-center mr-4 cursor-pointer"></div>
+      </span>
+    </div>
+    <div class="md:col-span-1 col-span-3 flex flex-col items-center mt-32">
+      <div class="w-12/12">
+        <p class="text-[#FF9549] text-center">فقط در AVTORUS!</p>
+        <p class="text-4xl font-bold text-center">تانک 300</p>
+        <p class="text-2xl text-center">تجارت در سود  تا 450000 ₽</p>
+        <div class="flex bg-[#FF2B00]  w-full mt-6 items-center rounded-2xl justify-center"><i class="fas fa-triangle-exclamation ml-4"></i> پیشنهاد محدود! <i class="fas fa-triangle-exclamation mr-4"></i></div>
+      </div>
+      <div class="w-12/12 mt-14 grid grid-cols-3">
+        <button class="md:w-12/12 col-span-3 h-14 bg-[#FF9549] text-black rounded-2xl cursor-pointer">از قیمت تبلیغات مطلع شوید <i class="fas fa-angle-left"></i></button>
+        <button class="md:w-12/12 col-span-3 h-14 border-2 border-[#FF9549] mt-4 rounded-2xl cursor-pointer">تست درایو <i class="fas fa-angle-left"></i></button>
+        <button class="md:w-12/12 col-span-3 h-14 border-2 border-[#FF9549] mt-4 rounded-2xl cursor-pointer">محاسبه اعتبار <i class="fas fa-angle-left"></i></button>
+      </div>
+    </div>
+    <div class="col-span-3 grid grid-cols-4 gap-4">
+      <span class="md:col-span-1 col-span-4 h-16 bg-[#181818] rounded-2xl flex items-center pr-4 "><img class="w-10" src="/assets/images/checklist.png" alt=""> خودروهای موجود با PTS</span>
+      <span class="md:col-span-1 col-span-4 h-16 bg-[#181818] rounded-2xl flex items-center pr-4"><img class="w-10" src="/assets/images/defender.png" alt=""> خدمات پشتیبانی تا 5 سال / 150000 کیلومتر</span>
+      <span class="md:col-span-1 col-span-4 h-16 bg-[#181818] rounded-2xl flex items-center pr-4"><img class="w-10" src="/assets/images/ticket.png" alt=""> ما هر پیشنهادی را بهبود خواهیم داد</span>
+      <span class="md:col-span-1 col-span-4 h-16 bg-[#181818] rounded-2xl flex items-center pr-4"><img class="w-10" src="/assets/images/offer.png" alt=""> اعتبار 0.01%</span>
+    </div>
+    <a href="#pic" id="click" class="col-span-3 md:w-[2100px] grid md:grid-cols-5 grid-cols-2 md:gap-4 gap-2 my-8 cursor-pointer">
+      <div class="col-span-3 grid md:grid-cols-5 grid-cols-2 md:gap-4 gap-2 my-8 cursor-pointer">
+        <span class="md:col-span-1 col-span-1 h-40 "><img class="rounded-2xl " src="/assets/images/tank300(1).png" alt=""></span>
+        <span class="md:col-span-1 col-span-1 h-40 "><img class="rounded-2xl" src="/assets/images/tank300(2).png" alt=""></span>
+        <span class="md:col-span-1 col-span-1 h-40 "><img class="w-full md:h-full h-32 object-cover rounded-2xl" src="/assets/images/tank300(3).png" alt=""></span>
+        <span class="md:col-span-1 col-span-1 h-40 "><img class="rounded-2xl" src="/assets/images/tank300(4).png" alt=""></span>
+        <span class="md:col-span-1 col-span-2 h-40 "><img class="w-full h-40 object-cover rounded-2xl" src="/assets/images/tank300(5).png" alt=""></span>
+      </div>
+    </a>
+    <div id="pic" class="md:w-[1000px] rounded-3xl md:h-[800px] h-full bg-[#181818] absolute md:right-2/8  invisible transition-all duration-300 opacity-0 target:opacity-100 target:visible grid grid-cols-8 gap-3 items-center justify-center">
+      <span class="md:col-span-8 md:col-start-2 col-span-8 h-40 md:mr-20 md:mt-0 mt-10"><img class="md:w-[600px] rounded-2xl " src="/assets/images/tank300(1).png" alt=""></span>
+      <span class="md:col-span-2 col-span-4 h-40 mr-4"><img class="rounded-2xl" src="/assets/images/tank300(2).png" alt=""></span>
+      <span class="md:col-span-2 col-span-4 h-40 "><img class="w-full md:h-full  h-32 object-cover rounded-2xl" src="/assets/images/tank300(3).png" alt=""></span>
+      <span class="md:col-span-2 col-span-4 h-40 "><img class="rounded-2xl" src="/assets/images/tank300(4).png" alt=""></span>
+      <span class="md:col-span-2 col-span-4 h-40 "><img class="w-full h-40 object-cover rounded-2xl" src="/assets/images/tank300(5).png" alt=""></span>
+      <a href="#click" class=" absolute top-0 right-0 flex justify-center items-center w-[100px] mt-7 rounded-full  h-[100px] scale-150">❌</a>
+    </div>
+  </section>
+  <!-- تانک 500  -->
+  <section class="bg-[#252C2C] md:grid md:grid-cols-3 md:px-80 overflow-hidden ">
+    <!-- حالت گوشی  -->
+    <div class="md:hidden">
+      <span >
+        <div class="w-40 h-28 bg-[#FF9549] text-black flex items-center justify-center rounded-2xl relative top-10 right-16 rotate-12">5 خودرو با قیمت ویژه <br> باقی مانده است</div>
+        <img class="w-[800px]" src="/assets/images/tank500.png" alt="">
+      </span>
+      <span class="flex md:flex-col md:mr-0 mr-18">
+        <div class="w-10 h-10 rounded-full bg-[#EF2929] flex items-center justify-center"><i class="fas fa-check"></i></div>
+        <div class="w-10 h-10 rounded-full bg-[#DF4C30] flex items-center justify-center mr-4 cursor-pointer"></div>
+        <div class="w-10 h-10 rounded-full bg-[#C6C9CE] flex items-center justify-center mr-4 cursor-pointer"></div>
+        <div class="w-10 h-10 rounded-full bg-[#212329] flex items-center justify-center border-2 border-[#939697] mr-4 cursor-pointer"></div>
+        <div class="w-10 h-10 rounded-full bg-[#E6E7E8] flex items-center justify-center mr-4 cursor-pointer"></div>
+      </span>
+    </div>
+      <div class="md:col-span-1 mt-32">
+        <div class="w-12/12">
+          <p class="text-[#FF9549] text-center">فقط در AVTORUS!</p>
+          <p class="text-4xl font-bold text-center">تانک 500</p>
+          <p class="text-2xl text-center">تجارت در سود  تا 700000 ₽</p>
+          <div class="flex bg-[#FF2B00] md:w-full w-full mt-6 items-center rounded-2xl justify-center"><i class="fas fa-triangle-exclamation ml-4"></i> پیشنهاد محدود! <i class="fas fa-triangle-exclamation mr-4"></i></div>
+        </div>
+      <div class="w-12/12 mt-14 grid grid-cols-3">
+        <button class="md:w-12/12 col-span-3 h-14 bg-[#FF9549] text-black rounded-2xl cursor-pointer">از قیمت تبلیغات مطلع شوید <i class="fas fa-angle-left"></i></button>
+        <button class="md:w-12/12 col-span-3 h-14 border-2 border-[#FF9549] mt-4 rounded-2xl cursor-pointer">تست درایو <i class="fas fa-angle-left"></i></button>
+        <button class="md:w-12/12 col-span-3 h-14 border-2 border-[#FF9549] mt-4 rounded-2xl cursor-pointer">محاسبه اعتبار <i class="fas fa-angle-left"></i></button>
+      </div>
+    </div>
+    <div class="col-span-2 hidden md:flex md:flex-row items-center ">
+      <span>
+        <div class="w-40 h-28 bg-[#FF9549] text-black flex items-center justify-center rounded-2xl relative top-32 right-36 rotate-12">5 خودرو با قیمت ویژه <br> باقی مانده است</div>
+        <img class="w-[800px]" src="/assets/images/tank500.png" alt="">
+      </span>
+      <span class="md:inline-block flex ">
+        <div class="w-10 h-10 rounded-full bg-[#EF2929] flex items-center justify-center"><i class="fas fa-check"></i></div>
+        <div class="w-10 h-10 rounded-full bg-[#DF4C30] flex items-center justify-center mt-4 cursor-pointer"></div>
+        <div class="w-10 h-10 rounded-full bg-[#C6C9CE] flex items-center justify-center mt-4 cursor-pointer"></div>
+        <div class="w-10 h-10 rounded-full bg-[#212329] flex items-center justify-center border-2 border-[#939697] mt-4 cursor-pointer"></div>
+        <div class="w-10 h-10 rounded-full bg-[#E6E7E8] flex items-center justify-center mt-4 cursor-pointer"></div>
+      </span>
+    </div>
+    <div class="col-span-3 grid grid-cols-4 gap-4 items-center">
+      <span class="md:col-span-1 col-span-4 h-16 bg-[#181818] rounded-2xl flex items-center pr-4"><img class="w-10" src="/assets/images/checklist.png" alt=""> خودروهای موجود با PTS</span>
+      <span class="md:col-span-1 col-span-4 h-16 bg-[#181818] rounded-2xl flex items-center pr-4"><img class="w-10" src="/assets/images/defender.png" alt=""> خدمات پشتیبانی تا 5 سال / 150000 کیلومتر</span>
+      <span class="md:col-span-1 col-span-4 h-16 bg-[#181818] rounded-2xl flex items-center pr-4"><img class="w-10" src="/assets/images/ticket.png" alt=""> ما هر پیشنهادی را بهبود خواهیم داد</span>
+      <span class="md:col-span-1 col-span-4 h-16 bg-[#181818] rounded-2xl flex items-center pr-4"><img class="w-10" src="/assets/images/offer.png" alt=""> اعتبار 0.01%</span>
+    </div>
+    <a href="#pic1" id="click1" class="col-span-3 md:w-[2100px] grid md:grid-cols-5 grid-cols-2 md:gap-4 gap-2 my-8 cursor-pointer">
+      <div class="col-span-3 grid md:grid-cols-5 grid-cols-2 md:gap-4 gap-2 my-8 cursor-pointer">
+        <span class="md:col-span-1 col-span-1 h-40"><img class="rounded-2xl" src="/assets/images/tank500(1).png" alt=""></span>
+        <span class="md:col-span-1 col-span-1 h-40"><img class="rounded-2xl" src="/assets/images/tank500(2).png" alt=""></span>
+        <span class="md:col-span-1 col-span-1 h-40"><img class="w-full md:h-full h-32   object-bottom object-cover rounded-2xl" src="/assets/images/tank500(3).png" alt=""></span>
+        <span class="md:col-span-1 col-span-1 h-40"><img class="rounded-2xl" src="/assets/images/tank500(4).png" alt=""></span>
+        <span class="md:col-span-1 col-span-2 h-40"><img class="w-full h-full object-cover rounded-2xl" src="/assets/images/tank500(5).png" alt=""></span>
+      </div>
+    </a>
+    <div id="pic1" class="md:w-[1000px] rounded-3xl md:h-[800px] h-full bg-[#181818] absolute md:right-2/8  invisible transition-all duration-300 opacity-0 target:opacity-100 target:visible grid grid-cols-8 gap-3 items-center justify-center">
+      <span class="md:col-span-8 md:col-start-2 col-span-8 h-40 md:mr-20 md:mt-0 mt-10"><img class="w-[600px] rounded-2xl" src="/assets/images/tank500(1).png" alt=""></span>
+      <span class="md:col-span-2 col-span-4 h-40 mr-3"><img class="rounded-2xl" src="/assets/images/tank500(2).png" alt=""></span>
+      <span class="md:col-span-2 col-span-4 h-40"><img class="w-full md:h-full h-32   object-bottom object-cover rounded-2xl" src="/assets/images/tank500(3).png" alt=""></span>
+      <span class="md:col-span-2 col-span-4 h-40"><img class="rounded-2xl" src="/assets/images/tank500(4).png" alt=""></span>
+      <span class="md:col-span-2 col-span-4 h-40"><img class="w-full h-full object-cover rounded-2xl" src="/assets/images/tank500(5).png" alt=""></span>
+      <a href="#click1" class=" absolute top-0 right-0 flex justify-center items-center w-[100px] mt-7 rounded-full  h-[100px] scale-150">❌</a>
+    </div>
+  </section>
+  <!-- قسمت انتخاب کردن ماشین  -->
+  <section class="bg-[#181818] flex flex-col items-center  w-9/12">
+    <p class="font-bold text-4xl mt-10 text-center">یک بسته را انتخاب کنید</p>
+    <div class="grid grid-cols-3 gap-5 mt-10 w-full">
+      <p class="text-[#939697] md:col-span-1 col-span-3 hidden md:flex">مدل</p>
+      <p class="text-[#939697] md:col-span-1 col-span-3 hidden md:flex">تجهیزات</p>
+      <p class="text-[#939697] md:col-span-1 col-span-3 hidden md:flex">موتور</p>
+      <p class="text-[#939697] md:col-span-1 col-span-3 md:hidden">مدل</p>
+      <select class="md:col-span-1 col-span-3 border-2 h-15 rounded-2xl border-[#939697] bg-[#252C2C]">
+        <option class="bg-[#181818] " value=""></option>
+        <option class="bg-[#181818]" value="">300</option>  
+        <option class="bg-[#181818]" value="">500</option>   
+      </select>
+      <p class="text-[#939697] md:col-span-1 col-span-3 md:hidden">تجهیزات</p>
+      <select class="md:col-span-1 col-span-3 border-2 h-15 rounded-2xl border-[#939697] bg-[#252C2C]">
+        <option class="bg-[#181818]" value=""></option>
+        <option class="bg-[#181818]" value=""></option>  
+        <option class="bg-[#181818]" value=""></option>  
+        <option class="bg-[#181818]" value=""></option>  
+      </select> 
+      <p class="text-[#939697] md:col-span-1 col-span-3 md:hidden">موتور</p>
+      <select class="md:col-span-1 col-span-3 border-2 h-15 rounded-2xl border-[#939697] bg-[#252C2C]">
+        <option class="bg-[#181818]" value=""></option>
+        <option class="bg-[#181818]" value=""></option>  
+        <option class="bg-[#181818]" value=""></option>  
+        <option class="bg-[#181818]" value=""></option>  
+      </select>  
+    </div>
+    <!-- قسمت ماشین های انتخاب شده  -->
+    <div class="w-12/12 mt-9 mb-7 ">
+      <div class="w-12/12 md:h-64 h-[570px] border-2 border-[#939697] flex flex-col md:flex-row items-center rounded-2xl">
+        <img class="w-[550px] " src="/assets/images/tank300(gray).png" alt="">
+        <div class="w-12/12">
+          <p class="text-4xl font-bold md:text-start text-center">تانک 300</p>
+          <p class="text-[#939697] md:text-start text-center">2.0 لیتر بنزینی فول اتوماتیک</p>
+          <p class="line-through text-3xl mt-7 md:text-start text-center">3 649 000 ₽</p>
+          <span class="md:flex w-[400px] md:mt-0 ">
+            <div class="flex justify-center mt-5"> 
+              <img class="w-7" src="/assets/images/ticket.png" alt="">
+              <p class="">سود تجارت تا 450000 ₽</p>
+            </div>
+            <div class="flex justify-center mt-5 mb-5">
+              <img class="w-7 mr-4" src="/assets/images/gift.png" alt="">
+              <p>روکش سرامیکی هدیه</p>
+            </div>
+          </span>
+        </div>
+        <div>
+          <button class="md:relative md:bottom-6 md:left-32 md:ml-5 mr-2 md:w-96 w-72  h-14 bg-[#FF9549] text-black rounded-2xl cursor-pointer">یک نقل قول دریافت کنید <i class="fas fa-angle-left"></i></button>
+          <button class="md:relative md:bottom-6 md:left-32 md:ml-5 mr-2 md:w-96 w-72  h-14 border-2 border-[#FF9549] mt-4 rounded-2xl cursor-pointer">تست درایو <i class="fas fa-angle-left"></i></button>
+        </div>
+      </div>
+      <div class="w-12/12 md:h-64 h-[570px] border-2 border-[#939697] flex flex-col md:flex-row items-center rounded-2xl mt-7">
+        <img class="w-[550px] " src="/assets/images/tank300(gray).png" alt="">
+        <div class="w-12/12">
+          <p class="text-4xl font-bold md:text-start text-center">تانک 300</p>
+          <p class="text-[#939697] md:text-start text-center">2.0 لیتر بنزینی فول اتوماتیک</p>
+          <p class="line-through text-3xl mt-7 md:text-start text-center">3 649 000 ₽</p>
+          <span class="md:flex w-[400px] md:mt-0 ">
+            <div class="flex justify-center mt-5"> 
+              <img class="w-7" src="/assets/images/ticket.png" alt="">
+              <p class="">سود تجارت تا 450000 ₽</p>
+            </div>
+            <div class="flex justify-center mt-5 mb-5">
+              <img class="w-7 mr-4" src="/assets/images/gift.png" alt="">
+              <p>روکش سرامیکی هدیه</p>
+            </div>
+          </span>
+        </div>
+        <div>
+          <button class="md:relative md:bottom-6 md:left-32 md:ml-5 mr-2 md:w-96 w-72  h-14 bg-[#FF9549] text-black rounded-2xl cursor-pointer">یک نقل قول دریافت کنید <i class="fas fa-angle-left"></i></button>
+          <button class="md:relative md:bottom-6 md:left-32 md:ml-5 mr-2 md:w-96 w-72  h-14 border-2 border-[#FF9549] mt-4 rounded-2xl cursor-pointer">تست درایو <i class="fas fa-angle-left"></i></button>
+        </div>
+      </div>
+      <div class="w-12/12 md:h-64 h-[570px] border-2 border-[#939697] flex flex-col md:flex-row items-center rounded-2xl mt-7">
+        <img class="w-[550px] " src="/assets/images/tank300(gray).png" alt="">
+        <div class="w-12/12">
+          <p class="text-4xl font-bold md:text-start text-center">تانک 300</p>
+          <p class="text-[#939697] md:text-start text-center">2.0 لیتر بنزینی فول اتوماتیک</p>
+          <p class="line-through text-3xl mt-7 md:text-start text-center">3 649 000 ₽</p>
+          <span class="md:flex w-[400px] md:mt-0 ">
+            <div class="flex justify-center mt-5"> 
+              <img class="w-7" src="/assets/images/ticket.png" alt="">
+              <p class="">سود تجارت تا 450000 ₽</p>
+            </div>
+            <div class="flex justify-center mt-5 mb-5">
+              <img class="w-7 mr-4" src="/assets/images/gift.png" alt="">
+              <p>روکش سرامیکی هدیه</p>
+            </div>
+          </span>
+        </div>
+        <div>
+          <button class="md:relative md:bottom-6 md:left-32 md:ml-5 mr-2 md:w-96 w-72  h-14 bg-[#FF9549] text-black rounded-2xl cursor-pointer">یک نقل قول دریافت کنید <i class="fas fa-angle-left"></i></button>
+          <button class="md:relative md:bottom-6 md:left-32 md:ml-5 mr-2 md:w-96 w-72  h-14 border-2 border-[#FF9549] mt-4 rounded-2xl cursor-pointer">تست درایو <i class="fas fa-angle-left"></i></button>
+        </div>
+      </div>
+    </div>
+    <div>
+      <button class="md:w-38 w-72 h-14 border-[1px] border-[#939697] rounded-2xl">بیشتر بارگیری کنید </button>
+    </div> 
+    <!-- قسمت شرایط مطلوب  -->
+    <div class="w-12/12 mt-36 md:flex  items-center mb-20">
+      <img class="md:w-6/12 w-12/12 h-[300px] object-cover rounded-2xl" src="/assets/images/soloImage.jpg" alt="">
+      <span class="mr-16">
+        <p class="font-bold text-4xl text-center">مبادله با تجارت با شرایط مطلوب</p>
+        <button class="md:w-56 w-12/12 h-14 bg-[#FF9549] text-black rounded-2xl cursor-pointer mt-16">درخواست ارسال کنید <i class="fas fa-angle-left"></i></button>
+      </span>
+    </div>
+  </section>
+  <!-- قمست درخواست وام  -->
+  <section class="w-12/12 flex flex-col items-center bg-[#181818]">
+    <div class="bg-[url(/assets/images/offroud.png)] w-12/12 md:h-[400px] h-[600px] bg-[length:300%_200%] bg-[70%_40%] md:bg-[length:140%_330%] md:bg-[50%_60%] relative">
+      <div class="absolute md:top-20 md:left-96">
+        <div class="mt-4">
+          <p class="text-4xl font-bold">درخواست وام بگذارید</p>
+          <p class="mt-2 text-2xl">و در 1 روز تایید شوید!</p>
+        </div>
+        <div class="mt-10">
+          <p class="text-[#939697] text-2xl">تلفن:</p>
+          <input class="md:w-64 w-96 h-12 bg-[#252C2C] px-5 rounded-[15px] border-[1px] border-[#939697] ml-5" type="tel" placeholder="+7 (___) ___-__-__">
+          <button class="md:w-56 w-96 h-14 mt-6 bg-[#FF9549] text-black rounded-2xl cursor-pointer ">درخواست ارسال کنید <i class="fas fa-angle-left"></i></button>
+        </div>
+        <input class="accent-[#252C2C]" type="checkbox">
+        <p class="inline-block">من با پردازش داده های شخصی موافقم.</p>
+      </div>
+    </div>
+    <!-- پیشنهاد ویژه  -->
+    <div class="w-9/12 md:h-52 bg-[#1C2121] mt-20 md:px-30 md:flex items-center justify-between rounded-2xl">
+      <div class="flex flex-col justify-center items-center md:mt-0 mt-5">
+        <p class="font-bold text-center  text-3xl">پیشنهاد ویژه برای مشتریان شرکتی</p>
+        <button class="md:w-56 w-72 h-14 bg-[#FF9549] text-black rounded-2xl cursor-pointer mt-10">درخواست ارسال کنید <i class="fas fa-angle-left"></i></button>
+      </div>
+      <div class="flex items-center md:mt-0 mt-10">
+        <img class="w-40 h-40 rounded-full object-cover inline-block" src="/assets/images/owner.png" alt="">
+        <span class="inline-block mr-8">
+          <p class="font-bold text-2xl">تاتیانا سانیکووا</p>
+          <p class="text-[#939697]">دپارتمان فروش <br> شرکت AVTORUS</p>
+        </span>
+      </div>
+    </div>
+    <!-- لوکیشن اتوگالری  -->
+    <div class="bg-[url(/assets/images/location.png)] md:bg-[length:100%_100%] bg-[length:260%_160%] bg-[50%_50%] md:w-9/12 w-10/12 h-[500px] mt-18 rounded-2xl relative">
+      <div class="w-full h-full rounded-2xl fillter backdrop-grayscale  flex justify-center items-end">
+        <img class="absolute w-28 top-36" src="/assets/images/loc.png" alt="">
+        <div class="relative md:bottom-0 bottom-[-350px]  w-11/12 md:h-32  bg-[#1C2121] rounded-2xl py-5 px-5 md:flex mb-8">
+          <span class="h-full w-9/12 md:flex justify-between ">
+            <span>
+              <p class="ساعات کاری">آدرس</p>
+              <p class="font-bold text-2xl">Yaroslavskoe shosse، ملک 2B، <br> ساختمان 3 (MKAD، 95 کیلومتر)</p>
+            </span>
+            <span>
+              <p class="text-[#939697] md:mt-0 mt-8">تلفن</p>
+              <p class="font-bold text-2xl">+98 (999) 999-99-99</p>
+              <p class="text-[#939697]"><i class="fas fa-circle text-[#00D154] text-[10px]"></i> ما در ارتباط هستیم</p>
+            </span>
+            <span>
+              <p class="text-[#939697] md:mt-0 mt-8">ساعات کاری</p>
+              <p class="font-bold text-2xl">همه روزه از ساعت <br> 09:00 الی 21:00</p>
+            </span>
+          </span>
+          <span class="md:w-3/12 h-full flex items-center justify-center md:mt-0 mt-8">
+            <button class="md:w-52 w-72 h-14 bg-[#FF9549] text-black rounded-2xl cursor-pointer">درخواست تماس <i class="fas fa-angle-left"></i></button>
+          </span>
+        </div>
+      </div>
+    </div>
+     <!-- قسمت توضیحات  -->
+    <div class="w-9/12 md:mt-16 flex items-end mt-80">
+      <details class="w-full mx-auto rounded-md shadow p-4 text-sm leading-relaxed">
+        <summary class="cursor-pointer text-right text-white font-bold px-4 py-2 rounded-md">
+          سلب مسئولیت
+        </summary>
+        <div class="mt-4 text-[#939697]">
+          <p>
+            تانک ۳۰۰ به قیمت ۳،۷۹۹،۰۰۰ روبل شامل پشتیبانی. قیمت مدل TANK (TENK) 300 در پکیج Adventure با موتور 2.0T 4WD، تولید سال 2023، رنگ خودرو: سفید، با احتساب سود معاوضه 300000 روبل. معاوضه، خودروهای دست دومی را می‌پذیرد که حداقل ۶ ماه (برای خودروهای تانک، هاوال، گریت وال - ۳ ماه) از تاریخ مالکیت و ثبت آنها در اداره بازرسی ایمنی ترافیک کشور، قبل از ارائه خودرو برای معاوضه، گذشته باشد. به عنوان اسنادی که مدت مالکیت وسیله نقلیه مورد معامله را تأیید می‌کند، مالک باید یک کپی از سند مالکیت وسیله نقلیه یا گواهی ثبت نام یا کارت ثبت نام وسیله نقلیه از اداره بازرسی ایمنی ترافیک کشور با مهر و امضا ارائه دهد. برای جزئیات بیشتر، لطفا با مدیران بخش فروش TANK AVTORUS تماس بگیرید. این پیشنهاد محدود است، یک پیشنهاد ویژه نیست و از تاریخ 01.04.2024 معتبر است. <br>تانک ۵۰۰ به قیمت ۵،۳۴۹،۰۰۰ روبل شامل پشتیبانی. قیمت مدل TANK (TENK) 500 در پکیج Adventure با موتور 3.0T 4WD، تولید سال 2023، رنگ خودرو: سفید، با در نظر گرفتن سود مستقیم 950،000 روبل. برای جزئیات بیشتر، لطفا با مدیران بخش فروش TANK AVTORUS تماس بگیرید. این پیشنهاد محدود است، یک پیشنهاد ویژه نیست و از تاریخ 01.04.2024 معتبر است.
+          </p>
+        </div>
+      </details>
+    </div>
+    <!-- قسمت پایین صفحه  -->
+    <hr class="border-[1px] w-9/12 mt-16 border-[#939697]">
+    <div class="w-9/12 hidden md:block">
+        <div class="md:flex justify-between w-full mt-16">
+          <span>
+            <p class="font-bold">مخزن AVTORUS لوسینی اوستروف</p>
+            <p class="text-[#939697]">فروشنده رسمی</p>
+          </span>
+          <span class="md:flex">
+            <span>
+              <p class="font-bold">+98 (999) 999-99-99</p>
+              <p class="text-[#939697]"><i class="fas fa-circle text-[#00D154] text-[10px]"></i> ما در ارتباط هستیم</p>
+            </span>
+            <span class="mr-5">
+              <button class="w-52 h-10 bg-[#FF9549] text-black rounded-[5px] cursor-pointer">درخواست تماس <i class="fas fa-phone"></i></button>
+            </span>
+          </span>
+        </div>
+        <div class="mt-8 flex justify-between w-full">
+          <span>
+            <p class="text-[#939697]"><i class="fas fa-location-dot"></i> Yaroslavskoe shosse، ملک 2B، ساختمان 3 (MKAD، 95 کیلومتر)</p>
+          </span>
+          <span>
+            <a href="#">
+              <i class="fas fa-gear text-[#FF9549] inline-block"></i>
+              <p class="inline-block">برای خدمات ثبت نام کنید</p>
+            </a>
+            <a href="">
+              <img class="w-[24px] inline-block mr-10" src="/assets/images/speed.png" alt="">
+              <p class="inline-block">تست درایو</p>
+            </a>
+          </span>
+        </div>
+        <div class=" mt-10">
+          <p class="text-[#939697]">فروشنده رسمی</p>
+          <p>OOO A AVTORUS MYTISHCHI | OGRN - 1147746695161، INN - 7728881903</p>
+        </div>
+    </div>
+    <!-- حالت گوشی  -->
+    <div class="w-9/12 md:hidden">
+      <div class="md:flex justify-between w-full mt-16">
+        <span>
+          <p class="font-bold">مخزن AVTORUS لوسینی اوستروف</p>
+          <p class="text-[#939697]">فروشنده رسمی</p>
+        </span>
+        <span class="md:flex">
+          <span class="">
+            <p class="font-bold mt-7">+98 (999) 999-99-99</p>
+            <p class="text-[#939697]"><i class="fas fa-circle text-[#00D154] text-[10px]"></i> ما در ارتباط هستیم</p>
+          </span>
+          <span>
+            <p class="text-[#939697] mt-7"><i class="fas fa-location-dot"></i> Yaroslavskoe shosse، ملک 2B، ساختمان 3 (MKAD، 95 کیلومتر)</p>
+          </span>
+          <span class=" ">
+            <button class="w-72 h-10 bg-[#FF9549] text-black rounded-[5px] cursor-pointer mt-7">درخواست تماس <i class="fas fa-phone"></i></button>
+          </span>
+        </span>
+      </div>
+      <div class="mt-8 flex  justify-between w-full">
+        <span>
+          <a href="#">
+            <i class="fas fa-gear text-[#FF9549] inline-block"></i>
+            <p class="inline-block">برای خدمات ثبت نام کنید</p>
+          </a> <br>
+          <a href="">
+            <img class="w-[24px] inline-block mr-10" src="/assets/images/speed.png" alt="">
+            <p class="inline-block">تست درایو</p>
+          </a>
+        </span>
+      </div>
+      <div class=" mt-10">
+        <p class="text-[#939697]">فروشنده رسمی</p>
+        <p>OOO A AVTORUS MYTISHCHI | OGRN - 1147746695161، INN - 7728881903</p>
+      </div>  
+    </div>
+    <hr class="border-[1px] w-9/12 mt-16 border-[#939697]">
+    <div class="w-9/12   justify-between text-[#939697] my-6">
+      <span>
+        <p class="text-center">© 2024، تانک آوتوروس</p>
+      </span>
+      <span class="w-12/12 flex justify-between mt-4">
+        <a href="#">اطلاعات حقوقی</a>
+        <a href="#">شرایط طرح تشویقی</a>
+      </span>
+    </div>
+  </section>
+</body>
+</html>
